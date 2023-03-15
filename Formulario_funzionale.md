@@ -22,7 +22,7 @@ esame = data.frame( matricola = as.character( c( 45020, 45679, 46789, 43126, 423
                     voti_S = c( 30, 19, 29, NA, 25, 26 ), 
                     voti_O = c( 3, 3, 1, NA, 3, 2 ), 
                     voti_TOT = c( 30, 22, 30, NA, 28, 28 ) )
-```R
+```
 
 ### Informazioni di un DataFrame
 ```R
