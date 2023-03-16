@@ -51,13 +51,14 @@ windows()
 ```
 
 ### Grafici di dispersione
+Un grafico di dispersione è spesso usato quando si hanno due variabili, di cui una rappresenta un parametro di controllo (posto convenzionalmente sull'asse orizzontale) e l'altra la variabile misurata (posta convenzionalmente sull'asse verticale). Può risultare utile per visualizzare il grado di correlazione tra la variabile misurata e il parametro di controllo.
 ```R
 plot(data_frame$variable_x, data_frame$variable_y, xlab = 'x_label', ylab = 'y_label', main = 'title')
 points(data_frame$variable_x, data_frame$variable_y, col='colour', pch = 19) #points serve per creare dei pallini colorati, pch indica la forma (19=cerchio)
 ```
 
 ### Grafici a barre
-I grafici a barre sono utili per visualizzare frequenze assolute e relative (variabili discrete)
+I grafici a barre sono utili per visualizzare frequenze assolute e relative di variabili discrete.
 ```R
 barplot(variable_frequency, col=c('col_1', 'col_2'), ylab='y_label')
 ```
