@@ -50,7 +50,7 @@ windows()
 #Entrambi i comandi aprono una nuova finestra grafica su Windows
 ```
 
-### Scatterplot
+### Grafici di dispersione
 ```R
 plot(data_frame$variable_x, data_frame$variable_y, xlab = 'x_label', ylab = 'y_label', main = 'title')
 points(data_frame$variable_x, data_frame$variable_y, col='colour', pch = 19) #points serve per creare dei pallini colorati, pch indica la forma (19=cerchio)
@@ -74,7 +74,7 @@ abline(v=median(data_frame$variable), col='red') # Crea una retta verticale in c
 abline(v=mean(data_frame$variable), col='green') # Crea una retta verticale in corrispondenza della media
 ```
 
-### Boxplot (diagramma a candela)
+### Diagramma a candela
 ```R
 boxplot(data_frame$variable, ylab="y_label", main='title')
 ```
