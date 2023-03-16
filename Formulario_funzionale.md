@@ -44,6 +44,11 @@ table( data_frame$variable ) / sum( table( data_frame$variable ) ) #tabella dell
 ```
 
 ## Grafici
+```R
+x11()
+windows()
+#Entrambi i comandi aprono una nuova finestra grafica
+```
 
 ### Scatterplot
 ```R
