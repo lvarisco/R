@@ -1,5 +1,6 @@
 # R
 R programming
 
-## Formulario funzionale
-[Formulario](Formulario_funzionale.md)
+## Schemi
+[Formulario funzionale](Formulario_funzionale.md)
+[Osservazioni sui grafici](Osservazioni_grafici.md)
