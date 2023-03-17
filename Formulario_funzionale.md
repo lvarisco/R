@@ -51,31 +51,35 @@ windows()
 ```
 
 ### Grafici di dispersione
-Un grafico di dispersione è spesso usato quando si hanno due variabili, di cui una rappresenta un parametro di controllo (posto convenzionalmente sull'asse orizzontale) e l'altra la variabile misurata (posta convenzionalmente sull'asse verticale). Può risultare utile per visualizzare il grado di correlazione tra la variabile misurata e il parametro di controllo.
+Un <b>grafico di dispersione</b> è spesso usato quando si hanno due variabili, di cui una rappresenta un parametro di controllo (posto convenzionalmente sull'asse orizzontale) e l'altra la variabile misurata (posta convenzionalmente sull'asse verticale). Può risultare utile per visualizzare il grado di <b>correlazione tra la variabile misurata e il parametro di controllo</b>.
 ```R
 plot(data_frame$variable_x, data_frame$variable_y, xlab = 'x_label', ylab = 'y_label', main = 'title')
 points(data_frame$variable_x, data_frame$variable_y, col='colour', pch = 19) #points serve per creare dei pallini colorati, pch indica la forma (19=cerchio)
 ```
 
 ### Grafici a barre
-I grafici a barre sono utili per visualizzare frequenze assolute e relative di variabili discrete.
+I <b>grafici a barre</b> sono utili per visualizzare le <b>frequenze assolute e relative</b> di <b>variabili discrete</b>.
 ```R
 barplot(variable_frequency, col=c('col_1', 'col_2'), ylab='y_label')
 ```
 
 ### Grafici a torta
+I <b>grafici a torta</b> sono utili per visualizzare le <b>frequenze relative</b> di <b>variabili discrete</b>.
 ```R
 pie ( table( data_frame$variable ) / sum( table( data_frame$variable ) ), main = 'title' )
 ```
 
 ### Istogrammi
+Gli <b>istogrammi</b> contano la <b>frequenza dei dati in ogni intervallo di dati prefissato</b> di <b>variabili continue</b>.
 ```R
 hist(data_frame$variable, xlab='x_label', main='title') # in ordinata ci sono le frequenze assolute
 abline(v=median(data_frame$variable), col='red') # Crea una retta verticale in corrispondenza della mediana
 abline(v=mean(data_frame$variable), col='green') # Crea una retta verticale in corrispondenza della media
 ```
 
-### Diagramma a candela
+### Diagrammi a candela
+I <b>diagrammi a candela</b> sono utili per identificare eventuali <b>asimmetrie della distribuzione</b> e/o la presenza di valori estremi (<b>outliers</b>).</br>
+Un diagramma a candela visualizza un rettangolo le cui basi inferiore e superiore visualizzano rispettivamente il primo e il terzo quartile. All'interno del rettangolo viene tracciata una linea in corrispondenza della mediana. Il limite inferiore è dato da `Q1 - 1.5*IQR`, mentre il limite superiore è dato da `Q3 + 1.5*IQR`. I cerchi sotto il limite inferiore e sopra il limite superiore rappresentano gli outliers.
 ```R
 boxplot(data_frame$variable, ylab="y_label", main='title')
 ```
