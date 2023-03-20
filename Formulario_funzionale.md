@@ -1,9 +1,9 @@
 # Funzioni R
-- [Lettura dati da file](Formulario-funzionale.md#Lettura-dati-da-file)
-- [Vettori e matrici](appunti.md#vettori-e-matrici)
-- [Dataframe](appunti.md#Dataframe)
-- [Grafici](appunti.md#Grafici)
-- [Indici di posizione e di dispersione](appunti.md#Indici-di-posizione-e-di-dispersione)
+- [Lettura dati da file](Formulario_funzionale.md#Lettura-dati-da-file)
+- [Vettori e matrici](Formulario_funzionale.md#vettori-e-matrici)
+- [Dataframe](Formulario_funzionale.md#Dataframe)
+- [Grafici](Formulario_funzionale.md#Grafici)
+- [Indici di posizione e di dispersione](Formulario_funzionale.md#Indici-di-posizione-e-di-dispersione)
 
 ## Lettura dati da file
 ```R
