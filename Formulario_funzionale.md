@@ -1,4 +1,5 @@
 # Funzioni R
+Indice:
 - [Lettura dati da file](Formulario_funzionale.md#Lettura-dati-da-file)
 - [Vettori e matrici](Formulario_funzionale.md#vettori-e-matrici)
 - [Dataframe](Formulario_funzionale.md#Dataframe)
