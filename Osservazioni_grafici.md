@@ -3,6 +3,9 @@
 ## Grafici di dispersione
 Dai grafici di dispersione è possibile constatare una qualche dipendenza di una variabile che si vuole misurare ed un certo parametro di controllo proprio del campione di riferimento.
 
+### Esempio
+
+
 ## Istogrammi
 Dagli istogrammi è possibile constatare la presenza di eventuali asimmetrie nella distribuzione (è utile per questo motivo rappresentare sull'istogramma anche media e mediana --> se sono molto diverse si ha un'asimmetria nella distribuzione). È anche possibile visualizzare la dispersione dei dati della variabile in osservazione.
 
