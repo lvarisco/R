@@ -5,6 +5,8 @@ Indice:
 - [Dataframe](Formulario_funzionale.md#Dataframe)
 - [Grafici](Formulario_funzionale.md#Grafici)
 - [Indici di posizione e di dispersione](Formulario_funzionale.md#Indici-di-posizione-e-di-dispersione)
+- [Covarianza e indice di correlazione](Formulario_funzionale.md#Covarianza-e-indice-di-correlazione)
+- [Test di Shapiro](Formulario_funzionale.md#Test-di-Shapiro)
 
 ## Lettura dati da file
 ```R
