@@ -91,8 +91,17 @@ boxplot(data_frame$variable, ylab="y_label", main='title')
 ```
 
 ### Q-Q plot
+I <b>Q-Q plot</b> sono grafici utili a verificare, approssimativamente, se una variabile presenta una <b>distribuzione normale</b>.
+```R
+qqnorm(variable, pch = 16, main = 'Title Q-Q plot')
+qqline(variable, lwd = 2, col = 'red')
+```
 
 ### Scatterplot
+Lo <b>scatterplot</b> è un grafico composto da più <b>grafici di dispersione</b> realizzati comparando le variabili contenute in un data frame a coppie.
+```R
+pairs(data_frame)
+```
 
 ## Indici di posizione e di dispersione
 
@@ -158,6 +167,21 @@ tapply( data_frame$variable_1, data_frame$variable_2, quantile, probs=0.25 )
 
 ### Covarianza
 
+```R
+cov(variable_1, variable_2)
+```
+
 ### Indice di correlazione
 
+```R
+cor(variable_1, variable_2)
+```
+
 ## Test di Shapiro
+Il <b>test di Shapiro</b> è un test statistico che si utilizza per determinare se una variabile segue una distribuzione, almeno approssimativamente, normale o meno.</br>
+Si individuano due casi:
+- p-value < 0.5 --> NON accetto H0 (che i dati siano distribuiti normalmente)
+- p-value > 0.5 --> accetto H0 (che i dati siano distribuiti normalmente)
+```R
+shapiro.test(variable)
+```
