@@ -90,6 +90,10 @@ Un diagramma a candela visualizza un rettangolo le cui basi inferiore e superior
 boxplot(data_frame$variable, ylab="y_label", main='title')
 ```
 
+### Q-Q plot
+
+### Scatterplot
+
 ## Indici di posizione e di dispersione
 
 ### Media (valore atteso)
@@ -149,3 +153,11 @@ tapply( data_frame$variable_1, data_frame$variable_2, min )
 tapply( data_frame$variable_1, data_frame$variable_2, median )
 tapply( data_frame$variable_1, data_frame$variable_2, quantile, probs=0.25 )
 ```
+
+## Covarianza e indice di correlazione
+
+### Covarianza
+
+### Indice di correlazione
+
+## Test di Shapiro
