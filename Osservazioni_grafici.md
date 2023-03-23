@@ -17,3 +17,8 @@ Dai grafici a candela è possibile constatare la presenza di eventuali outliers,
 
 ### Esempio
 <div align="center"><img src="img/Colesterolo_boxplot.jpeg"/></div>
+
+## Q-Q plot
+
+### Esempio
+<div align="center"><img src="img/Q-Q.jpeg"/></div>
