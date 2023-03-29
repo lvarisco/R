@@ -7,6 +7,7 @@ Indice:
 - [Indici di posizione e di dispersione](Formulario_funzionale.md#Indici-di-posizione-e-di-dispersione)
 - [Covarianza e indice di correlazione](Formulario_funzionale.md#Covarianza-e-indice-di-correlazione)
 - [Test di Shapiro](Formulario_funzionale.md#Test-di-Shapiro)
+- [Retta di regressione](Formulario_funzionale.md#Retta-di-regressione)
 
 ## Lettura dati da file
 ```R
@@ -186,4 +187,9 @@ Si individuano due casi:
 - p-value > 0.5 --> accetto H0 (che i dati siano distribuiti normalmente)
 ```R
 shapiro.test(variable)
+```
+
+## Retta di regressione
+```R
+lm(dipendent_variable ~ covariate_variable)
 ```
