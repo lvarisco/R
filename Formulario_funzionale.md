@@ -191,5 +191,9 @@ shapiro.test(variable)
 
 ## Retta di regressione
 ```R
-lm(dipendent_variable ~ covariate_variable)
+regressione = lm(dipendent_variable ~ covariate_variable)
+regressione$coefficients[1]
+regressione$coefficients[2]
+summary(regressione)
+res = regressione$residuals
 ```
