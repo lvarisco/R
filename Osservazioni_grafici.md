@@ -1,4 +1,9 @@
 # Osservazioni sui grafici
+Indice:
+- [Grafici di dispersione](Formulario_funzionale.md#Grafici-di-dispersione)
+- [Istogrammi](Formulario_funzionale.md#Istogrammi)
+- [Grafici a candela](Formulario_funzionale.md#Grafici-a-candela)
+- [Q-Q plot](Formulario_funzionale.md#Q-Q-plot)
 
 ## Grafici di dispersione
 Dai grafici di dispersione è possibile constatare una qualche dipendenza di una variabile che si vuole misurare ed un certo parametro di controllo proprio del campione di riferimento.
