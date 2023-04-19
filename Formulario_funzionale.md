@@ -189,11 +189,10 @@ Si individuano due casi:
 shapiro.test(variable)
 ```
 
-## Retta di regressione
+## Modello di regressione lineare
 ```R
-regressione = lm(dipendent_variable ~ covariate_variable)
-regressione$coefficients[1]
-regressione$coefficients[2]
-summary(regressione)
-res = regressione$residuals
+mod = lm(dipendent_variable ~ covariate_variable_1 + covariate_variable_2 + covariate_variable_1:covariate_variable_2)
+summary(mod)
+res = mod$residuals
+shapiro.test(res) # Si può usare il test di shapiro sui residuals per verificare che siano normali
 ```
