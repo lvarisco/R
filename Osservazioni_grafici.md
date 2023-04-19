@@ -19,6 +19,7 @@ Dai grafici a candela è possibile constatare la presenza di eventuali outliers,
 <div align="center"><img src="img/Colesterolo_boxplot.jpeg"/></div>
 
 ## Q-Q plot
+Dai Q-Q plot è possibile constatare graficamente la validità o meno di un certo modello di regressione lineare.
 
 ### Esempio
 <div align="center"><img src="img/Q-Q.jpeg"/></div>
