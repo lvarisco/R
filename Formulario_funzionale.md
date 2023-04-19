@@ -7,7 +7,7 @@ Indice:
 - [Indici di posizione e di dispersione](Formulario_funzionale.md#Indici-di-posizione-e-di-dispersione)
 - [Covarianza e indice di correlazione](Formulario_funzionale.md#Covarianza-e-indice-di-correlazione)
 - [Test di Shapiro](Formulario_funzionale.md#Test-di-Shapiro)
-- [Retta di regressione](Formulario_funzionale.md#Retta-di-regressione)
+- [Modello di regressione lineare](Formulario_funzionale.md#Modello-di-regressione-lineare)
 
 ## Lettura dati da file
 ```R
