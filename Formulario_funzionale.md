@@ -49,7 +49,7 @@ data_frame$variable = as.factor( data_frame$variable )
 ### Crazione di una tabella di frequenza
 ```R
 table( data_frame$variable ) #tabella delle frequenze assolute
-table( data_frame$variable ) / sum( table( data_frame$variable ) ) #tabella delle frequenze realtive
+prop.table( table( data_frame$variable ) ) #tabella delle frequenze realtive
 ```
 
 ## Grafici
@@ -164,6 +164,7 @@ tapply( data_frame$variable_1, data_frame$variable_2, max )
 tapply( data_frame$variable_1, data_frame$variable_2, min )
 tapply( data_frame$variable_1, data_frame$variable_2, median )
 tapply( data_frame$variable_1, data_frame$variable_2, quantile, probs=0.25 )
+tapply( data_frame$variable_1, data_frame$variable_2, summary )
 ```
 
 ## Covarianza e indice di correlazione
@@ -194,5 +195,5 @@ shapiro.test(variable)
 mod = lm(dipendent_variable ~ covariate_variable_1 + covariate_variable_2 + covariate_variable_1:covariate_variable_2)
 summary(mod)
 res = mod$residuals
-shapiro.test(res) # Si può usare il test di shapiro sui residuals per verificare che siano normali
+shapiro.test(res) # Si può usare il test di shapiro sui residui per verificare che siano normali
 ```
